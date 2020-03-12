@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>Cupcake projekt</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="header.css">
     </head>
     <body>
        <img src="olskercupcakes.png">
