@@ -1,13 +1,5 @@
-<%@include file="./includes/header.inc"%>
+<%@include file="./includes/headerStartside.inc"%>
 
-<!DOCTYPE html>
-<html>
-
-
-<head>
-
-</head>
-<body>
 
     <div class="bod"> 
 

@@ -2,6 +2,7 @@
     <head>
         <title>Cupcake projekt</title>
         <link rel="stylesheet" type="text/css" href="header.css">
+         <link rel="stylesheet" type="text/css" href="Styles.css">
 
     </head>
     <body>
