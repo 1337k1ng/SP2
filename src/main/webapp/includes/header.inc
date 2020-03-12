@@ -12,7 +12,6 @@
            <a href="#top" class="navigation-item">Shop</a>
            <a href="#top" class="navigation-item">Login</a>
            <a href="#top" class="navigation-item">Sign-up</a>
-           <a id="basket" class="navigation-item"> <img  src="basket.png"> </a>
+           <a id="basket" class="navigation-item"> <img src="basket.png"> </a>
       </div>
     </body>
-

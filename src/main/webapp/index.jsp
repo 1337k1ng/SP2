@@ -1,18 +1,14 @@
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@include file="./includes/header.inc"%>
-<form name="register" action="FrontController" method="POST">
-    <input type="hidden" name="target" value="register">
-    Email:<br>
-    <input type="text" name="email" value="someone@nowhere.com">
-    <br>
-    Password:<br>
-    <input type="password" name="password1" value="sesam">
-    <br>
-    Retype Password:<br>
-    <input type="password" name="password2" value="sesam">
-    <br>
-    <input type="submit" value="Submit">
-</form>
-</body>
-</html>
+<%@include file="./includes/headerStartside.inc"%>
+<%@ page contentType="text/html; charset=UTF-8" %>
+    <div class="bod"> 
+
+        <h1>Velkommen til Olskers Cupcakes.</h1>
+        <h2>Her sælger vi de bedste af de bedste cupcakes! Og vi har mange varianter.</h2>
+        <a id="SignUpButton"> Sign up nu og få en gratis Cupcake </a>
+            
+    
+        <img src="resources/Cupcake.png" id="cupcakeImg">
+    </div>
+
+<%@include file="./includes/footer.inc"%>
+
