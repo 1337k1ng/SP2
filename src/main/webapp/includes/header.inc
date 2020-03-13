@@ -1,11 +1,11 @@
 <html>
     <head>
         <title>Cupcake projekt</title>
-        <link rel="stylesheet" type="text/css" href="header.css">
+        <link rel="stylesheet" type="text/css" href="stylesheets/header.css">
 
     </head>
     <body>
-       <img src="olskercupcakes.png">
+       <img src="resources/olskercupcakes.png">
 
        <div class="navigation-bar">
                   <form id="home" action="FrontController" method="post">
