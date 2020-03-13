@@ -10,11 +10,39 @@
        <img src="resources/olskercupcakes.png">
 
        <div class="navigation-bar">
-           <a href="#top" class="navigation-item">Home</a>
-           <a href="#top" class="navigation-item">Shop</a>
-           <a href="#top" class="navigation-item">Login</a>
-           <a href="#top" class="navigation-item">Sign-up</a>
-           <a id="basket" class="navigation-item"> <img  src="basket.png"> </a>
+
+
+      <a href="#top" class="navigation-item" onclick="toHome()">Home</a>
+      <a href="#top" class="navigation-item" onclick="toShop()">Shop</a>
+     <a href="#top" class="navigation-item" onclick="toLogin()">Login</a>
+     <a href="#top" class="navigation-item" onclick="toSignup()">Sign-up</a>
+     <a href="#top"  id="basket" onclick="toKurv()"> <img src="basket.png"></a>
+
+                              <form id="kurv" action="FrontController" method="post">
+                                <input type="hidden" value="to" name="target">
+                                  <input type="hidden" value="kurv" name="to">
+                              </form>
+
+                       <form id="signup" action="FrontController"  method="post">
+                                  <input type="hidden" value="to" name="target">
+                            <input type="hidden" value="signup" name="to">
+                                 </form>
+
+                                <form id="login" action="FrontController" method="post">
+                                           <input type="hidden" value="to" name="target">
+                                    <input type="hidden" value="login" name="to">
+                                     </form>
+
+                                  <form id="home" action="FrontController" method="post">
+                                             <input type="hidden" value="to" name="target">
+                                      <input type="hidden" value="home" name="to">
+                                       </form>
+
+                        <form id="shop" action="FrontController"  method="post">
+                                   <input type="hidden" value="to" name="target">
+                          <input type="hidden" value="shop" name="to">
+                                      </form>
+
       </div>
     </body>
 

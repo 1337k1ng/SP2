@@ -7,11 +7,10 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@include file="/includes/header.inc"%>
-<%@ page contentType="text/html; charset=UTF-8" %>
 
 
 <div class="bod">
-    <form class="signupForm" action="/action_page.php">
+    <form class="signupForm" action="Frontcontroller">
         <h1> Sign up</h1>
         <input type="hidden" name="taget" value="kurv" >
 
