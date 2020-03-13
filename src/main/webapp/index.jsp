@@ -7,7 +7,10 @@
         <a id="SignUpButton"> Sign up nu og få en gratis Cupcake </a>
 
 
-        <img src="resources/Cupcake.png" id="cupcakeImg">
+        <img src="resources/Cupcake.png" id="cupcakeImg" alt="billede af cupcake på homepage">
+
+
+
     </div>
 
 <%@include file="./includes/footer.inc"%>

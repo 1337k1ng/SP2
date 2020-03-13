@@ -5,14 +5,13 @@
   Time: 16.23
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@include file="/includes/header.inc"%>
 
 
 <div class="bod">
-    <form class="signupForm" action="Frontcontroller">
+    <form class="signupForm" action="FrontController">
         <h1> Sign up</h1>
-        <input type="hidden" name="taget" value="kurv" >
+        <input type="hidden" name="target" value="kurv" >
 
         <label class="label" >Email:</label><br>
         <input class="field" type="text"  name="fname" value="" placeholder="Something@Email.com">
