@@ -2,12 +2,19 @@
 <%@ page contentType="text/html; charset=UTF-8" %>
     <div class="bod"> 
 
-        <h1>Velkommen til Olskers Cupcakes.</h1>
-        <h2>Her sælger vi de bedste af de bedste cupcakes! Og vi har mange varianter.</h2>
-        <a id="SignUpButton"> Sign up nu og få en gratis Cupcake </a>
-            
     
-        <img src="resources/Cupcake.png" id="cupcakeImg">
+        <form>
+
+            <form action="Frontcontroller">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" value="John"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" value="Doe"><br><br>
+                <input type="submit" value="Submit">
+              </form>
+        </form>
+
+
     </div>
 
 <%@include file="./includes/footer.inc"%>
