@@ -16,6 +16,10 @@
       <a href="#top" class="navigation-item" onclick="toShop()">Shop</a>
      <a href="#top" class="navigation-item" onclick="toLogin()">Login</a>
      <a href="#top" class="navigation-item" onclick="toSignup()">Sign-up</a>
+
+ <!-- OPS!! Skal have ny css class, hvor så den ikke ligner en knap som de andre -->
+       <a class="navigation-item" >   ${sessionScope.email} </a>
+
      <a href="#top"  id="basket" onclick="toKurv()"> <img src="basket.png"></a>
 
                               <form id="kurv" action="FrontController" method="post">
@@ -34,7 +38,7 @@
                                      </form>
 
                                   <form id="home" action="FrontController" method="post">
-                                             <input type="hidden" value="to" name="target">
+                                             <input type="hidden" value="index" name="target">
                                       <input type="hidden" value="home" name="to">
                                        </form>
 

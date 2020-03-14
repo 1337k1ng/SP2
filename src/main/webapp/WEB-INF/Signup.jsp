@@ -9,16 +9,16 @@
 
 
 <div class="bod">
-    <form class="signupForm" action="FrontController">
+    <form class="signupForm" action="FrontController" method="post">
         <h1> Sign up</h1>
-        <input type="hidden" name="target" value="kurv" >
+        <input type="hidden" name="target" value="register" >
 
         <label class="label" >Email:</label><br>
-        <input class="field" type="text"  name="fname" value="" placeholder="Something@Email.com">
+        <input class="field" type="text"  name="email" value="" placeholder="Something@Email.com">
         <label class="label" >Password:</label><br>
-        <input class="field" type="text"  name="lname" value="" placeholder="******">
+        <input class="field" type="text"  name="password1" value="" placeholder="******">
         <label  class="label">Confirm password:</label><br>
-        <input class="field" type="text"  name="lname" value="" placeholder="******">
+        <input class="field" type="text"  name="password2" value="" placeholder="******">
         <input class="button" type="submit" value="Submit">
 
 
