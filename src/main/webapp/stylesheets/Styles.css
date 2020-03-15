@@ -51,11 +51,9 @@ background-color: rebeccapurple;
 color: white;
     }
 
-    #cupcakeImg {
-    position: absolute;
-
+#cupcakeImg {
+position: absolute;
 margin-top: -36%;
 margin-left: 55%;
-      width: 30%;
-    }
-
+width: 30%;
+}
