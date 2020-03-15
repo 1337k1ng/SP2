@@ -31,7 +31,7 @@
                     <option value = "vaniljeBund">Vanilje, 5.00 kr</option>
                     <option value = "muskatBund">Muskatnød, 5.00 kr</option>
                     <option value = "pistacieBund">Pistacie, 6.00 kr</option>
-                    <option value = "mandelBund">Mandel, 7.00 kr</option
+                    <option value = "mandelBund">Mandel, 7.00 kr</option>
                 </select>
                 <br>
             </div>

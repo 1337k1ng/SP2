@@ -9,10 +9,12 @@
         ting i et hashmap i stedet.
     </h4>
     <h4>Ikke en god måde at gøre det på, vil bare vise at alle muffins er i en arrayliste..</h4>
-
     <p>${MuffinBasket.mufAsStr()}</p>
-
     <br>
+    <form class="signupForm" action="FrontController" method="post">
+        <input type="hidden" name="target" value="basket" >
+        <input class="button" type="submit" value="Checkout">
+    </form>
     <h4>
     TODO: en knap her, hvis man trykker på den skal der ske en masse:
     1. tjekke om brugeren har nok penge på konto

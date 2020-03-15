@@ -6,7 +6,7 @@ import FunctionLayer.Muffin;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-public class AddMuffin extends Command {
+public class AddMuffinToBasket extends Command {
 
     @Override
     String execute(HttpServletRequest request, HttpServletResponse response) throws LoginSampleException {

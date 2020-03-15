@@ -21,4 +21,8 @@ public class MuffinBasket {
         return muffinsAsStr.toString();
     }
 
+    public static void clearMuffinBasket() {
+        muffinsIKurv.clear();
+    }
+
 }
