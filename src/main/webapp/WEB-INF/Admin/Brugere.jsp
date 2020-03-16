@@ -18,8 +18,8 @@
           <tr>
 
               <td>${user.email}</td>
-              <td>${user.password}</td>
-              <td>${user.role}</td>
+              <td style="width: 20%; text-align: center;">${user.password} kr. <button class="tilføjKnap"> add more </button></td>  <!--  Password er saldo i dette tilfælde haha -->
+              <td>${user.role}  <button style="float: right" class="sletKnap"> Slet bruger</button></td>
           </tr>
 
 

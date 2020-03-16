@@ -5,7 +5,7 @@
 <div class="bod">
 
 
-    <h1>Velkommen til ordre</h1>
+    <h1>Velkommen til admin siden</h1>
 
 
 
