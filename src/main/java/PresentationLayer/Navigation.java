@@ -21,7 +21,7 @@ public class Navigation extends Command {
             case "shop":
                 return "Shop";
             case "login":
-                return "/Admin/Admin";
+                return "Login";
             case "signup":
                 return "Signup";
             case "kurv":
