@@ -25,6 +25,15 @@
 
              document.getElementById("kurv").submit();
              }
+
+
+             function toBrugere(){
+             document.getElementById("Brugere").submit();
+             }
+              function toOrdre(){
+               document.getElementById("Ordre").submit();
+                }
+
         </script>
 
 

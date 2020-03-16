@@ -19,11 +19,21 @@ public class Navigation extends Command {
             case "shop":
                 return "Shop";
             case "login":
-                return "Login";
+                return "/Admin/Admin";
             case "signup":
                 return "Signup";
             case "kurv":
                 return "Cart";
+
+
+                // ADMIN SIDER
+            case "adminHome":
+                return "Admin/Admin";
+            case "brugere":
+                return "Admin/Brugere";
+
+            case "ordre":
+                return "Admin/Ordre";
         }
 
         return "??";
