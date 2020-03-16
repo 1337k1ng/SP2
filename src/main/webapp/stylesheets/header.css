@@ -132,6 +132,7 @@ table {
     margin-right: auto;
     margin-top: 20px;
     margin-bottom: 20px;
+    width: 80%;
 }
 table, th, td {
     border: 1px solid black;

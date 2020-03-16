@@ -64,7 +64,8 @@ public class UserMapper {
 
         if (brugerListe == null) {
             brugerListe = new ArrayList<User>();
-        }
+        } else
+            brugerListe.clear();
 
         try {
             Connection con = Connector.connection();
