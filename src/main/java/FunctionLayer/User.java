@@ -15,6 +15,7 @@ public class User {
     private int id; // just used to demo retrieval of autogen keys in UserMapper
     private String email;
     private String password; // Should be hashed and secured
+    private int saldo;
     private String role;
 
     public String getEmail() {

@@ -3,6 +3,35 @@
             <title>Cupcake projekt</title>
             <link rel="stylesheet" type="text/css" href="stylesheets/header.css">
 
+    <style>
+    * ------- Table stuff ------- */
+
+    table {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    th, td {
+        padding: 15px;
+        text-align: left;
+    }
+    table tr:nth-child(even) {
+        background-color: #eee;
+    }
+    table tr:nth-child(odd) {
+        background-color: #fff;
+    }
+    table th {
+        background-color: rebeccapurple;
+        color: white;
+    }
+
+    </style>
         </head>
         <body>
            <img src="resources/olskercupcakes.png">

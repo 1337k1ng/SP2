@@ -1,6 +1,8 @@
 package PresentationLayer;
 
+import DBAccess.UserMapper;
 import FunctionLayer.LoginSampleException;
+import FunctionLayer.User;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -30,6 +32,9 @@ public class Navigation extends Command {
             case "adminHome":
                 return "Admin/Admin";
             case "brugere":
+
+              request.setAttribute("brugerListe", UserMapper.HentBrugere());
+
                 return "Admin/Brugere";
 
             case "ordre":
