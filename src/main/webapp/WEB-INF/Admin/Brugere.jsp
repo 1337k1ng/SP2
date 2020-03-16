@@ -1,12 +1,12 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@include file="/includes/adminHeader.inc"%>
-
+<%@ page contentType="text/html; charset=UTF-8" %>
 
 
 <div class="bod">
 
 
-    <h1>Brugere</h1>
+    <h1 id="BrugerH1"> Nuværende brugere</h1>
 
     <table >
         <tr>
