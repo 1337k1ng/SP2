@@ -37,8 +37,8 @@ img {
     width: 40px;
     right: 15px;
     padding: 4px;
-position: absolute;
-cursor: pointer;
+    position: absolute;
+    cursor: pointer;
 
 }
 .navigation-item::before {    
@@ -65,17 +65,31 @@ cursor: pointer;
 
 /* ------- Signup / login ------- */
 
-.signupForm{
-
+.signupForm {
     margin-left: 10%;
     padding: 40px;
-
 }
-.label{
+.label {
     display: block;
-
     font-size: x-large;
-    font-family: Futura;
+    font-family: Futura, serif;
+}
+
+.label1 {
+    font-size: large;
+    font-family: Futura, serif;
+    display: inline;
+}
+
+.custom-header {
+    line-height: 15pt;
+    font-family: Futura, serif;
+    color: red;
+}
+
+.airy {
+    margin-left: 5%;
+    margin-top: 5%;
 }
 
 .field{
@@ -87,7 +101,6 @@ cursor: pointer;
 
 
 .button {
-
     width: 200px;
     background-color: rebeccapurple;
     height: 40px;
@@ -95,7 +108,6 @@ cursor: pointer;
     border: none;
     color: white;
     cursor: pointer;
-
 }
 
 
@@ -105,12 +117,4 @@ cursor: pointer;
     .navigation-item {
         font-size: smaller;
     }
-}
-
-#listElement1 {
-    position: relative;
-}
-#listElement2 {
-    position: relative;
-    background-color: #3C1460;
 }

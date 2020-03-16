@@ -4,9 +4,11 @@ import java.util.ArrayList;
 
 public class MuffinBasket {
     static ArrayList<Muffin> muffinsIKurv = new ArrayList<>();
+    static int size = 0;
 
     public static  void addMuffin(Muffin x) {
         muffinsIKurv.add(x);
+        size++;
     }
 
     public static String mufAsStr() {
@@ -20,9 +22,7 @@ public class MuffinBasket {
         }
         return muffinsAsStr.toString();
     }
-
     public static void clearMuffinBasket() {
         muffinsIKurv.clear();
     }
-
 }
