@@ -1,16 +1,12 @@
 <%@include file="/includes/header.inc"%>
 <%@ page contentType="text/html; charset=UTF-8" %>
 <div class="bod">
-    <h1>TODO: Denne side burde kun vises hvis man er logget ind!</h1>
-    <h2>TODO: Der mangler en masse styling front-end wise. </h2>
-    <h3>TODO: Der skal stå "muffin tilføjet til kurv!" når jeg har trykket på Submit. </h3>
-    <form class="signupForm" action="FrontController" method="post">
+    <div style="margin-left: 1%;">
+    <h2 style="padding-top: 20px; font-family: Futura">De bedste muffins man kan forestille sig, er blot et enkelt klik væk:</h2>
+    <form action="FrontController" method="post" style="text-align:center">
         <input type="hidden" name="target" value="muffin" >
-        <fieldset>
             <div style="display: inline-block;">
-                <legend>Sammensæt Muffins:</legend>
-                <p>
-                    <label>Muffin topping</label>
+                    <label style="font-family: Futura">Muffin topping:</label>
                     <select name="top">
                         <option value = "chokolade">Chokolade, 5.00 kr</option>
                         <option value = "blaabaer">Blåbær, 5.00 kr</option>
@@ -24,8 +20,8 @@
                     </select>
                     <br>
             </div>
-            <div style="display: inline-block;">
-                <label>Muffin bund</label>
+            <div style="display: inline;">
+                <label style="font-family: Futura">Muffin bund:</label>
                 <select name="bund">
                     <option value = "chokoladeBund">Chokolade, 5.00 kr</option>
                     <option value = "vaniljeBund">Vanilje, 5.00 kr</option>
@@ -34,11 +30,11 @@
                     <option value = "mandelBund">Mandel, 7.00 kr</option>
                 </select>
                 <br>
+                <br>
             </div>
-            </p>
-            <br>
             <input class="button" type="submit" value="Submit">
-        </fieldset>
     </form>
+    <h4 class="custom-header">TODO: Denne side burde kun vises hvis man er logget ind!</h4>
+    </div>
 </div>
 <%@include file="/includes/footer.inc"%>
